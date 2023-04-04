@@ -1,5 +1,7 @@
 streamlit
 numpy
-opencv-python
 tensorflow
 pandas
+
+pip install opencv-python
+pip freeze > requirements.txt
