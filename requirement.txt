@@ -1,5 +1,5 @@
 streamlit
 numpy
-OpenCV
+opencv-python
 tensorflow
 pandas
