@@ -1,0 +1,5 @@
+streamlit
+numpy
+OpenCV
+tensorflow
+pandas
