@@ -2,6 +2,4 @@ streamlit
 numpy
 tensorflow
 pandas
-
-pip install opencv-python
-pip freeze > requirements.txt
+pencv-python
