@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 import streamlit as st
-from streamlit.state.session_state import get_state
 import Dataset
 import pandas as pd
 import tensorflow as tf
@@ -19,12 +18,7 @@ if choice == "Predictions":
 elif choice == "Dataset":
     # เรียกใช้หน้าใหม่
     Dataset.app()
-    
-def app():
-    state = get_state() # get session state
-    if 'page1_data' not in state:
-        state.page1_data = {} # initialize empty dict for data on page 1
-        
+         
 model = tf.keras.models.load_model("Model/mdl_wt.hdf5")
 
 # Write text with larger font size
