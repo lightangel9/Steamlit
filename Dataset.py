@@ -10,6 +10,3 @@ def app():
     st.text('Number of categories: 120')
     st.text('Number of images: 20,580')
     st.text('Annotations: Class labels, Bounding boxes')
-
-if __name__ == '__main__':
-    app()
