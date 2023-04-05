@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import streamlit as st
 
-def.app():
+def app():
       st.subheader('🤖 Python Code to build model for Image Classification')
       st.success('**Install Library**')
       code = '''!pip install streamlit
