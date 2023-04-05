@@ -6,7 +6,7 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_input as mobilenet_v2_preprocess_input
 
-model = tf.keras.models.load_model("C:\\Users\\x10-02-150\\source\\repos\\Dog Classification\\save_model\\mdl_wt.hdf5")
+model = tf.keras.models.load_model("Model/mdl_wt.hdf5")
 
 # Write text with larger font size
 st.markdown("<h1 style='text-align: left; color: black; margin-top: 0; font-size: 32px;'>🐶 Dog Breed Prediction 🐕‍🦺</h1>", unsafe_allow_html=True)
