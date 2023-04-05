@@ -3,7 +3,7 @@ import Dataset
 
 def main():
     menu = ["Predictions", "Dataset"]
-    choice = st.sidebar.radio("ไปที่", menu)
+    choice = st.sidebar.radio("📄Select Page**", menu)
 
     if choice == "Predictions":
         st.subheader('📊Dataset')
