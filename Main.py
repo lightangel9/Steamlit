@@ -9,7 +9,7 @@ from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_in
 
 # เพิ่มเมนูเพื่อเปิดหน้าใหม่
 menu = ["Predictions", "Dataset"]
-choice = st.sidebar.selectbox("📄Page", menu)
+choice = st.sidebar.selectbox("**📄Select Page**", menu)
 
 # แสดงหน้าที่เลือก
 if choice == "Predictions":
