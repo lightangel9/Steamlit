@@ -15,8 +15,7 @@ choice = st.sidebar.selectbox("**📄Select Page**", menu)
 if choice == "Predictions":
     # แสดงหน้าหลักที่มีอยู่
     pass
-
-if choice == "Dataset":
+elif choice == "Dataset":
     # เรียกใช้หน้าใหม่
     Dataset.app()
      
