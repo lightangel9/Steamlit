@@ -1,6 +1,9 @@
 import matplotlib.pyplot as plt
 import streamlit as st
 
+import matplotlib.pyplot as plt
+import streamlit as st
+
 def app():
       st.subheader('🤖 Python Code to build model for Image Classification')
       st.success('**Install Library**')
@@ -39,9 +42,9 @@ def app():
       st.code(code, language='python')
 
       st.success('**Image Preprocessing**')
-      code = '''def img_Data(dir_path,target_size,batch,class_lst,preporcssing,):
-        if preporcssing:
-          gen_object = ImageDataGenerator(preprocessing_function=preporcssing)
+      code = '''def img_Data(dir_path,target_size,batch,class_lst,preprocessing):
+        if preprocessing:
+          gen_object = ImageDataGenerator(preprocessing_function=preprocessing)
         else:
           gen_object = ImageDataGenerator()
 
@@ -55,7 +58,7 @@ def app():
       st.code(code, language='python')
 
       code = '''train_data_gen = img_Data("Train",(224,224),500,os.listdir("Train"),preprocess_input)
-          valid_data_gen = img_Data("Test",(224,224),500,os.listdir("Test"),preprocess_input)'''
+      valid_data_gen = img_Data("Test",(224,224),500,os.listdir("Test"),preprocess_input)'''
       st.code(code, language='python')
 
       st.success('**Define base model**')
