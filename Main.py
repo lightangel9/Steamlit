@@ -5,7 +5,7 @@ import pandas as pd
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_input as mobilenet_v2_preprocess_input
-import 1_📊_Dataset
+import 1_Dataset
 
 menu = ["หน้าหลัก", "หน้าที่สอง"]
 choice = st.sidebar.selectbox("ไปที่", menu)
