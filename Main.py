@@ -18,10 +18,7 @@ if choice == "Predictions":
 elif choice == "Dataset":
     # เรียกใช้หน้าใหม่
     Dataset.app()
-    
-@st.cache(ttl=3600)
-def get_dataset_info():   
-    
+     
 model = tf.keras.models.load_model("Model/mdl_wt.hdf5")
 
 # Write text with larger font size
@@ -182,6 +179,3 @@ if uploaded_file is not None:
         st.write("**Top 3 predicted labels:**")
         for idx in top3_idx:
             st.write("- {}: {:.2f}%".format(map_dict[idx], prediction_probs[idx] * 100))
-
-def app():
-    get_dataset_info()
