@@ -16,7 +16,7 @@ if choice == "หน้าหลัก":
     pass
 elif choice == "หน้าที่สอง":
     # เรียกใช้หน้าใหม่
-    1_📊_Dataset.app()
+    1_Dataset.app()
 
 
 model = tf.keras.models.load_model("Model/mdl_wt.hdf5")
