@@ -19,7 +19,7 @@ elif choice == "Dataset":
     # เรียกใช้หน้าใหม่
     Dataset.app()
 elif choice == "Code":
-    Code.app()
+    TrainCode.app()
      
 model = tf.keras.models.load_model("Model/mdl_wt.hdf5")
 
