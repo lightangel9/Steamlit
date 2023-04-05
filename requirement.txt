@@ -3,5 +3,3 @@ numpy
 tensorflow
 pandas
 opencv-python-headless
-streamlit_webrtc
-opencv-python
