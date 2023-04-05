@@ -14,12 +14,14 @@ choice = st.sidebar.selectbox("**📄Select Page**", menu)
 # แสดงหน้าที่เลือก
 if choice == "Predictions":
     # แสดงหน้าหลักที่มีอยู่
-    Main.app()
+    pass
 elif choice == "Dataset":
     # เรียกใช้หน้าใหม่
     Dataset.app()
+    pass
 elif choice == "Code":
     TrainCode.app()
+    pass
      
 model = tf.keras.models.load_model("Model/mdl_wt.hdf5")
 
