@@ -5,6 +5,19 @@ import pandas as pd
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_input as mobilenet_v2_preprocess_input
+import 1_📊_Dataset
+
+menu = ["หน้าหลัก", "หน้าที่สอง"]
+choice = st.sidebar.selectbox("ไปที่", menu)
+# แสดงหน้าที่เลือก
+
+if choice == "หน้าหลัก":
+    # แสดงหน้าหลักที่มีอยู่
+    pass
+elif choice == "หน้าที่สอง":
+    # เรียกใช้หน้าใหม่
+    1_📊_Dataset.app()
+
 
 model = tf.keras.models.load_model("Model/mdl_wt.hdf5")
 
