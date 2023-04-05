@@ -1,6 +1,12 @@
 import streamlit as st
+import Dataset
 
-def app():
+def main():
+    Dataset.app()
+
+if __name__ == "__main__":
+    main()
+    
     st.subheader('📊Dataset')
     st.success('**Original dataset from Kaggle.com 🌐**')
     st.markdown('🔗URL: https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset')
