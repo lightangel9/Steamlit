@@ -7,6 +7,7 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_input as mobilenet_v2_preprocess_input
 
+def app():
     menu = ["หน้าหลัก", "หน้าที่สอง"]
     choice = st.sidebar.radio("ไปที่", menu)
     # แสดงหน้าที่เลือก
