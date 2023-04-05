@@ -8,7 +8,7 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_input as mobilenet_v2_preprocess_input
 
 # เพิ่มเมนูเพื่อเปิดหน้าใหม่
-menu = ["Predictions", "Dataset","Code"]
+menu = ["Predictions", "Dataset","TrainCode"]
 choice = st.sidebar.selectbox("**📄Select Page**", menu)
 
 # แสดงหน้าที่เลือก
@@ -19,7 +19,7 @@ elif choice == "Dataset":
     # เรียกใช้หน้าใหม่
     Dataset.app()
     pass
-elif choice == "Code":
+elif choice == "TrainCode":
     TrainCode.app()
     pass
      
