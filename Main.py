@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 import streamlit as st
-import dataset
 import pandas as pd
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image
@@ -167,3 +166,13 @@ if uploaded_file is not None:
         st.write("**Top 3 predicted labels:**")
         for idx in top3_idx:
             st.write("- {}: {:.2f}%".format(map_dict[idx], prediction_probs[idx] * 100))
+  
+    st.subheader('📊Dataset')
+    st.success('**Original dataset from Kaggle.com 🌐**')
+    st.markdown('🔗URL: https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset')
+    st.subheader('Context')
+    st.text('Stanford Dogs dataset contains images of 120 breeds of dogs from around the world.')
+    st.subheader('Content')
+    st.text('Number of categories: 120')
+    st.text('Number of images: 20,580')
+    st.text('Annotations: Class labels, Bounding boxes')
