@@ -166,7 +166,6 @@ st.markdown("<h1 style='text-align: left; color: black; margin-top: 0; font-size
           st.write("**Top 3 predicted labels:**")
           for idx in top3_idx:
               st.write("- {}: {:.2f}%".format(map_dict[idx], prediction_probs[idx] * 100))
-return
 
 st.subheader('📊Dataset')
 st.success('**Original dataset from Kaggle.com 🌐**')
