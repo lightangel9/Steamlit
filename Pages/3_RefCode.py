@@ -4,10 +4,10 @@ import streamlit as st
 
 # สร้างหน้าเว็บที่สาม
 def page_3_ref_code():
-    st.title('3_👨‍💻_RefCode.py')
-    # เพิ่มเนื้อหาหน้าเว็บ 3_👨‍💻_RefCode.py
+    st.title('3_RefCode.py')
+    # เพิ่มเนื้อหาหน้าเว็บ 3_RefCode.py
 
-# เรียกใช้ฟังก์ชันสำหรับสร้างหน้าเว็บ 3_👨‍💻_RefCode.py
+# เรียกใช้ฟังก์ชันสำหรับสร้างหน้าเว็บ 3_RefCode.py
 page_3_ref_code()
 
       st.subheader('🤖 Python Code to build model for Image Classification')
