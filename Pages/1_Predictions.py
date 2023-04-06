@@ -17,7 +17,7 @@ st.markdown("<h1 style='text-align: left; color: black; margin-top: 0; font-size
 ### load file
 uploaded_file = st.file_uploader("Choose a image file", type=["jpg","png"])
 
-  if uploaded_file:
+if uploaded_file:
       map_dict = {0: 'Affenpinscher',
                   1: 'Afghan_hound',
                   2: 'African_hunting_dog',
@@ -139,11 +139,11 @@ uploaded_file = st.file_uploader("Choose a image file", type=["jpg","png"])
                   118: 'Wire_haired_fox_terrier',
                   119: 'Yorkshire_terrier'}
 
-  else: 
+else: 
       st.subheader('☝️ Upload or drop an image file here')
       st.warning('.jpg .png file')
 
-  if uploaded_file is not None:
+if uploaded_file is not None:
       # Convert the file to an opencv image.
       file_bytes = np.asarray(bytearray(uploaded_file.read()), dtype=np.uint8)
       opencv_image = cv2.imdecode(file_bytes, 1)
