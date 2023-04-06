@@ -1,6 +1,7 @@
 import streamlit as st
 
-st.set_page_config(page_title='Dataset', page_icon=':bar_chart:', layout='wide')
+st.markdown("2_📊_Dataset")
+st.sidebar.markdown("2_📊_Dataset")
 
     st.subheader('📊Dataset')
     st.success('**Original dataset from Kaggle.com 🌐**')
