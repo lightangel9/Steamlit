@@ -1,6 +1,7 @@
 import streamlit as st
 
-def app():
+st.set_page_config(page_title='Dataset', page_icon=':bar_chart:', layout='wide')
+
     st.subheader('📊Dataset')
     st.success('**Original dataset from Kaggle.com 🌐**')
     st.markdown('🔗URL: https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset')
