@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import streamlit as st
 
-st.markdown("# Page 3 🎉")
-st.sidebar.markdown("# Page 3 🎉")
+st.markdown("3_👨‍💻_RefCode")
+st.sidebar.markdown("#3_👨‍💻_RefCode")
 
       st.subheader('🤖 Python Code to build model for Image Classification')
       st.success('**Install Library**')
