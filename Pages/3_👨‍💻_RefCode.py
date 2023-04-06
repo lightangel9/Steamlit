@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 st.markdown("3_👨‍💻_RefCode")
-st.sidebar.markdown("#3_👨‍💻_RefCode")
+st.sidebar.markdown("3_👨‍💻_RefCode")
 
       st.subheader('🤖 Python Code to build model for Image Classification')
       st.success('**Install Library**')
