@@ -6,8 +6,8 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_input as mobilenet_v2_preprocess_input
  
-st.markdown("1_🐶_Predictions")
-st.sidebar.markdown("1_🐶_Predictions")
+st.markdown("1_Predictions")
+st.sidebar.markdown("1_Predictions")
 
 model = tf.keras.models.load_model("Model/mdl_wt.hdf5")
 
