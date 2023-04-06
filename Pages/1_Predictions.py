@@ -14,8 +14,8 @@ model = tf.keras.models.load_model("Model/mdl_wt.hdf5")
 # Write text with larger font size
 st.markdown("<h1 style='text-align: left; color: black; margin-top: 0; font-size: 32px;'>🐶 Dog Breed Prediction 🐕‍🦺</h1>", unsafe_allow_html=True)
 
-  ### load file
-  uploaded_file = st.file_uploader("Choose a image file", type=["jpg","png"])
+### load file
+uploaded_file = st.file_uploader("Choose a image file", type=["jpg","png"])
 
   if uploaded_file:
       map_dict = {0: 'Affenpinscher',
