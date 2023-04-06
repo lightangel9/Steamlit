@@ -10,6 +10,7 @@ if choice == '1_Predictions':
     page_1_predictions.show()
 elif choice == '2_Dataset':
     page_2_dataset.show()
-elif choice == '3__RefCode.py':
+elif choice == '3_RefCode.py':
     page_3_ref_code.show()
+
 
