@@ -1,7 +1,7 @@
 import streamlit as st
-from pages.page_1_predictions import show as page_1_predictions_show
-from pages.page_2_dataset import show as page_2_dataset_show
-from pages.page_3_ref_code import show as page_3_ref_code_show
+from pages.1_predictions import show as page_1_predictions_show
+from pages.2_dataset import show as page_2_dataset_show
+from pages.3_ref_code import show as page_3_ref_code_show
 
 # เมนูเปลี่ยนหน้า
 menu = ['1_Predictions', '2_Dataset', '3_RefCode.py']
