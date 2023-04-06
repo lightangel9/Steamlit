@@ -14,7 +14,3 @@ elif choice == '2_Dataset':
     page_2_dataset_show()
 elif choice == '3_RefCode.py':
     page_3_ref_code_show()
-
-
-
-
