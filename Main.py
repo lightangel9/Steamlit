@@ -1,7 +1,7 @@
 import streamlit as st
-from 1_predictions
-from 2_dataset
-from 3_ref_code
+from predictions
+from dataset
+from ref_code
 
 # เมนูเปลี่ยนหน้า
 menu = ['1_Predictions', '2_Dataset', '3_RefCode']
