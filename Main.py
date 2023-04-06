@@ -1,28 +1,10 @@
 import cv2
 import numpy as np
 import streamlit as st
-import Dataset
-import TrainCode
 import pandas as pd
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_input as mobilenet_v2_preprocess_input
-
-# เพิ่มเมนูเพื่อเปิดหน้าใหม่
-menu = ["Predictions", "Dataset","TrainCode"]
-choice = st.sidebar.selectbox("**📄Select Page**", menu)
-
-# แสดงหน้าที่เลือก
-if choice == "Predictions":
-    # แสดงหน้าหลักที่มีอยู่
-    pass
-elif choice == "Dataset":
-    # เรียกใช้หน้าใหม่
-    Dataset.app()
-    pass
-elif choice == "TrainCode":
-    TrainCode.app()
-    pass
      
 model = tf.keras.models.load_model("Model/mdl_wt.hdf5")
 
