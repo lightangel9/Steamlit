@@ -1,8 +1,14 @@
 import matplotlib.pyplot as plt
 import streamlit as st
 
-st.markdown("3_👨‍💻_RefCode")
-st.sidebar.markdown("3_👨‍💻_RefCode")
+
+# สร้างหน้าเว็บที่สาม
+def page_3_ref_code():
+    st.title('3_👨‍💻_RefCode.py')
+    # เพิ่มเนื้อหาหน้าเว็บ 3_👨‍💻_RefCode.py
+
+# เรียกใช้ฟังก์ชันสำหรับสร้างหน้าเว็บ 3_👨‍💻_RefCode.py
+page_3_ref_code()
 
       st.subheader('🤖 Python Code to build model for Image Classification')
       st.success('**Install Library**')
