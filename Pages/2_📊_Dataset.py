@@ -1,7 +1,12 @@
 import streamlit as st
 
-st.markdown("2_📊_Dataset")
-st.sidebar.markdown("2_📊_Dataset")
+# สร้างหน้าเว็บที่สอง
+def page_2_dataset():
+    st.title('2_📊_Dataset')
+    # เพิ่มเนื้อหาหน้าเว็บ 2_📊_Dataset
+
+# เรียกใช้ฟังก์ชันสำหรับสร้างหน้าเว็บ 2_📊_Dataset
+page_2_dataset()
 
     st.subheader('📊Dataset')
     st.success('**Original dataset from Kaggle.com 🌐**')
