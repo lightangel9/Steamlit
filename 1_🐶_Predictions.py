@@ -5,7 +5,10 @@ import pandas as pd
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_input as mobilenet_v2_preprocess_input
-  
+ 
+st.markdown("1_🐶_Predictions")
+st.sidebar.markdown("1_🐶_Predictions")
+
 model = tf.keras.models.load_model("Model/mdl_wt.hdf5")
 
 # Write text with larger font size
@@ -167,15 +170,4 @@ st.markdown("<h1 style='text-align: left; color: black; margin-top: 0; font-size
           for idx in top3_idx:
               st.write("- {}: {:.2f}%".format(map_dict[idx], prediction_probs[idx] * 100))
 
-st.subheader('📊Dataset')
-st.success('**Original dataset from Kaggle.com 🌐**')
 
-# Use st.beta_expander() to wrap the content you want to hide
-with st.beta_expander('ℹ️ Dataset Details'):
-    st.markdown('🔗URL: https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset')
-    st.subheader('Context')
-    st.text('Stanford Dogs dataset contains images of 120 breeds of dogs from around the world.')
-    st.subheader('Content')
-    st.text('Number of categories: 120')
-    st.text('Number of images: 20,580')
-    st.text('Annotations: Class labels, Bounding boxes')
