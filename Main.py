@@ -1,5 +1,5 @@
 import streamlit as st
-from pages import page_1_predictions, page_2_dataset, page_3_ref_code
+from Pages import page_1_predictions, page_2_dataset, page_3_ref_code
 
 # เมนูเปลี่ยนหน้า
 menu = ['1_Predictions', '2_Dataset', '3_RefCode.py']
@@ -12,5 +12,6 @@ elif choice == '2_Dataset':
     page_2_dataset.show()
 elif choice == '3_RefCode.py':
     page_3_ref_code.show()
+
 
 
