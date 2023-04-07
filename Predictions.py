@@ -171,7 +171,7 @@ if uploaded_file is not None:
            
 st.sidebar.markdown("""
     # About 
-    Brainstorming Buddy is a helper tool built on GPT-3 to generate ideas on a given topic. 
+    This project involves processing images of all 120 dog breeds from around the world using deep learning models. 
     """)   
 st.sidebar.warning("**💾 More informations:**")
 st.sidebar.caption("[🔗Github](https://github.com/lightangel9/Streamlit-Dog)")
