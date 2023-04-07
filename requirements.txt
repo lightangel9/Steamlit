@@ -4,3 +4,4 @@ tensorflow
 pandas
 opencv-python-headless
 matplotlib
+streamlit-option-menu
