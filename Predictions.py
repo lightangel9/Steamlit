@@ -169,7 +169,7 @@ if uploaded_file is not None:
 
             
            
-st.sidebar.markdown(""""
+st.sidebar.markdown("""
     # About 
     Brainstorming Buddy is a helper tool built on GPT-3 to generate ideas on a given topic. 
     """)   
