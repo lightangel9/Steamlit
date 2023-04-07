@@ -14,4 +14,4 @@ Annotations: Class labels, Bounding boxes
 
 **My Colab notebook** 
 
-🔗URL: https://drive.google.com/file/d/1HvyVdvC1x8_5E_YnXJdFpPgXYKLQdHl9/view?usp=sharing
+🔗URL: https://github.com/lightangel9/Streamlit-Dog/blob/main/Model/Dog%20Classification.ipynb
