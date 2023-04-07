@@ -166,22 +166,7 @@ if uploaded_file is not None:
         st.write("**Top 3 predicted labels:**")
         for idx in top3_idx:
             st.write("🐾 {}: {:.2f}%".format(map_dict[idx], prediction_probs[idx] * 100))
-         
-# แสดง Site Bar โดยใช้ markdown
-st.markdown(
-"""
-<style>
-.sidebar .sidebar-content {
-    padding-top: 1rem;
-}
-.sidebar .sidebar-content .block-container {
-    margin-bottom: 1rem;
-}
-</style>
-""",
-unsafe_allow_html=True
-)
-
+       
 st.sidebar.success("More informations:")
 st.sidebar.caption("[🔗Github](https://github.com/lightangel9/Streamlit-Dog)")
 st.sidebar.caption("[🔗Dataset](https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset)")
