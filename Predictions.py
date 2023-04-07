@@ -163,7 +163,7 @@ if uploaded_file is not None:
         top3_idx = np.argsort(prediction_probs)[-3:][::-1]
 
         # Display the top 3 predicted labels and their probabilities
-        st.write("**Top 3 predicted labels:**")
+        st.write("**🐾Top 3 predicted labels:**")
         for idx in top3_idx:
-            st.write("- {}: {:.2f}%".format(map_dict[idx], prediction_probs[idx] * 100))
+            st.write("🐾 {}: {:.2f}%".format(map_dict[idx], prediction_probs[idx] * 100))
             st.balloons()
