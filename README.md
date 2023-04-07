@@ -1,4 +1,4 @@
-#Dog Species Classification
+Dog Species Classification
 
 st.subheader('📊Dataset')
 st.success('**Original dataset from Kaggle.com 🌐**')
