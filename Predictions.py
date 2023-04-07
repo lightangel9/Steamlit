@@ -184,3 +184,8 @@ unsafe_allow_html=True
 
 # เพิ่มลิงค์ URL เป็นแถบเมนู
 st.sidebar.markdown("[Github🔗](https://github.com/lightangel9/Streamlit-Dog)")
+import streamlit as st
+
+# เพิ่มลิงค์ URL โดยไม่มีเส้นใต้
+st.sidebar.write("[เว็บไซต์](https://www.example.com)", unsafe_allow_html=True)
+
