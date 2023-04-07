@@ -167,3 +167,20 @@ if uploaded_file is not None:
         for idx in top3_idx:
             st.write("🐾 {}: {:.2f}%".format(map_dict[idx], prediction_probs[idx] * 100))
             st.balloons()
+# แสดง Site Bar โดยใช้ markdown
+st.markdown(
+"""
+<style>
+.sidebar .sidebar-content {
+    padding-top: 1rem;
+}
+.sidebar .sidebar-content .block-container {
+    margin-bottom: 1rem;
+}
+</style>
+""",
+unsafe_allow_html=True
+)
+
+# เพิ่มลิงค์ URL เป็นแถบเมนู
+st.sidebar.markdown("[เว็บไซต์](https://www.example.com)")
