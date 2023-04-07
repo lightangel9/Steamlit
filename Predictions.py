@@ -166,7 +166,13 @@ if uploaded_file is not None:
         st.write("**Top 3 predicted labels:**")
         for idx in top3_idx:
             st.write("🐾 {}: {:.2f}%".format(map_dict[idx], prediction_probs[idx] * 100))
-       
+
+            
+           
+st.sidebar.markdown(""""
+    # About 
+    Brainstorming Buddy is a helper tool built on GPT-3 to generate ideas on a given topic. 
+    """)   
 st.sidebar.warning("**💾 More informations:**")
 st.sidebar.caption("[🔗Github](https://github.com/lightangel9/Streamlit-Dog)")
 st.sidebar.caption("[🔗Dataset](https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset)")
