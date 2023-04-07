@@ -170,7 +170,7 @@ if uploaded_file is not None:
             
            
 st.sidebar.markdown("""
-    # ℹ️About 
+    #About 
     This project involves processing images of all 120 dog breeds from around the world using deep learning models. 
     """)
 st.sidebar.warning("**💾 More informations:**")
