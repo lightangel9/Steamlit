@@ -159,12 +159,12 @@ def app():
             # Generate prediction button
             generate_pred = st.button("Generate Prediction")
 
-     if generate_pred:
-          # Get the prediction probabilities for the uploaded image
-          prediction_probs = model.predict(img_reshape)[0]
-          top3_idx = np.argsort(prediction_probs)[-3:][::-1]
+  if generate_pred:
+     # Get the prediction probabilities for the uploaded image
+     prediction_probs = model.predict(img_reshape)[0]
+     top3_idx = np.argsort(prediction_probs)[-3:][::-1]
 
-          # Display the top 3 predicted labels and their probabilities
-          st.write("**Top 3 predicted labels:**")
-          for idx in top3_idx:
-              st.write("- {}: {:.2f}%".format(map_dict[idx], prediction_probs[idx] * 100))
+     # Display the top 3 predicted labels and their probabilities
+     st.write("**Top 3 predicted labels:**")
+     for idx in top3_idx:
+         st.write("- {}: {:.2f}%".format(map_dict[idx], prediction_probs[idx] * 100))
