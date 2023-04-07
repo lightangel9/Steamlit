@@ -2,10 +2,4 @@ streamlit
 numpy
 tensorflow
 pandas
-<<<<<<< HEAD
 opencv-python-headless
-=======
-opencv-python-headless
-matplotlib
-streamlit==0.71.0
->>>>>>> 34c1c79b520896085b2862cf960aeef4e4f9c299
