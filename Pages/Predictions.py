@@ -159,7 +159,7 @@ def app():
             # Generate prediction button
             generate_pred = st.button("Generate Prediction")
 
-      if generate_pred:
+     if generate_pred:
           # Get the prediction probabilities for the uploaded image
           prediction_probs = model.predict(img_reshape)[0]
           top3_idx = np.argsort(prediction_probs)[-3:][::-1]
