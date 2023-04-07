@@ -3,3 +3,4 @@ numpy
 tensorflow
 pandas
 opencv-python-headless
+matplotlib.pyplot
