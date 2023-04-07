@@ -12,7 +12,7 @@ model = tf.keras.models.load_model("Model/mdl_wt.hdf5")
 st.markdown("<h1 style='text-align: left; color: black; margin-top: 0; font-size: 32px;'>🐶 Dog Breed Prediction 🐕‍🦺</h1>", unsafe_allow_html=True)
 
 ### load file
-uploaded_file = st.file_uploader("Choose a image file", type=["jpg","png"])
+uploaded_file = st.file_uploader("Choose a image file", type=["jpg","png","jpeg"])
 
 if uploaded_file:
     map_dict = {0: 'Affenpinscher',
@@ -138,7 +138,7 @@ if uploaded_file:
           
 else: 
     st.subheader('☝️ Upload or drop an image file here')
-    st.warning('.jpg .png file')
+    st.warning('.jpg .png .jpeg file')
 
 if uploaded_file is not None:
     # Convert the file to an opencv image.
