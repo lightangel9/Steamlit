@@ -1,6 +1,6 @@
 **🐶 Dog species image classification**
 
-📊Original dataset from Kaggle.com🌐
+Original dataset from Kaggle.com🌐
 
 🔗URL: https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset
 
