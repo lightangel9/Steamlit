@@ -171,8 +171,9 @@ if uploaded_file is not None:
            
 st.sidebar.markdown("""
     # About 
-      This project involves processing images of all 120 dog breeds from around the world using deep learning models. 
-    """)   
+    This project involves processing images of all 120 dog breeds from around the world using deep learning models. 
+    """)
+st.sidebar.markdown(html_temp.format("rgba(55, 53, 47, 0.16)"),unsafe_allow_html=True)
 st.sidebar.warning("**💾 More informations:**")
 st.sidebar.caption("[🔗Github](https://github.com/lightangel9/Streamlit-Dog)")
 st.sidebar.caption("[🔗Dataset](https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset)")
