@@ -166,7 +166,7 @@ if uploaded_file is not None:
         st.write("**Top 3 predicted labels:**")
         for idx in top3_idx:
             st.write("🐾 {}: {:.2f}%".format(map_dict[idx], prediction_probs[idx] * 100))
-            st.balloons()
+         
 # แสดง Site Bar โดยใช้ markdown
 st.markdown(
 """
@@ -183,4 +183,4 @@ unsafe_allow_html=True
 )
 
 # เพิ่มลิงค์ URL เป็นแถบเมนู
-st.sidebar.markdown("[เว็บไซต์](https://www.example.com)")
+st.sidebar.markdown("[My github](https://github.com/lightangel9/Streamlit-Dog)")
