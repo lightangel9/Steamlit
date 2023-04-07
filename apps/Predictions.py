@@ -5,7 +5,10 @@ import pandas as pd
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_input as mobilenet_v2_preprocess_input
- 
+
+
+def app():
+
       model = tf.keras.models.load_model("Model/mdl_wt.hdf5")
 
       # Write text with larger font size
@@ -167,4 +170,3 @@ from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_in
         for idx in top3_idx:
             st.write("- {}: {:.2f}%".format(map_dict[idx], prediction_probs[idx] * 100))
 
-def app():
