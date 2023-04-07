@@ -185,4 +185,4 @@ unsafe_allow_html=True
 
 st.sidebar.markdown("[🔗Github](https://github.com/lightangel9/Streamlit-Dog)")
 st.sidebar.markdown("[🔗Dataset](https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset)")
-st.sidebar.markdown("[🔗Nuild Model](https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset)")
+st.sidebar.markdown("[🔗Build Model](https://github.com/lightangel9/Streamlit-Dog/blob/main/Model/Dog%20Classification.ipynb)")
