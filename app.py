@@ -1,6 +1,6 @@
 import streamlit as st
 from multiapp import MultiApp
-from Pages import Predictions, Dataset, RefCode
+from apps import Predictions, Dataset, RefCode
 
 app = MultiApp()
 
