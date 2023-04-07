@@ -5,14 +5,6 @@ import pandas as pd
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.mobilenet_v2 import MobileNetV2,preprocess_input as mobilenet_v2_preprocess_input
- 
-# สร้างหน้าเว็บแรก
-def page_1_predictions():
-    st.title('1_Predictions')
-    # เพิ่มเนื้อหาหน้าเว็บ 1_Predictions
-
-# เรียกใช้ฟังก์ชันสำหรับสร้างหน้าเว็บ 1_Predictions
-page_1_predictions()
 
 model = tf.keras.models.load_model("Model/mdl_wt.hdf5")
 
