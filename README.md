@@ -1,4 +1,4 @@
-**Dog species image classification**
+**🐶 Dog species image classification**
 
 📊Original dataset from Kaggle.com🌐
 
