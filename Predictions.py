@@ -168,9 +168,8 @@ if uploaded_file is not None:
             st.write("🐾 {}: {:.2f}%".format(map_dict[idx], prediction_probs[idx] * 100))
 
             
-           
+st.sidebar.warning("**🤖Objective**")           
 st.sidebar.markdown("""
-    # About 
     The objective of this project is to employ deep learning models to accurately predict the breed of dogs based on image inputs, encompassing all 120 different breeds from around the world. 
     """)
 st.sidebar.warning("**💾 More informations:**")
