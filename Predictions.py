@@ -168,11 +168,11 @@ if uploaded_file is not None:
             st.write("🐾 {}: {:.2f}%".format(map_dict[idx], prediction_probs[idx] * 100))
 
             
-st.sidebar.warning("**🤖Objective**")           
+st.sidebar.info("**🤖Objective**")           
 st.sidebar.markdown("""
     The objective of this project is to employ deep learning models to accurately predict the breed of dogs based on image inputs, encompassing all 120 different breeds from around the world. 
     """)
-st.sidebar.warning("**💾 More informations:**")
+st.sidebar.info("**💾 More informations:**")
 st.sidebar.caption("[🔗Github](https://github.com/lightangel9/Streamlit-Dog)")
 st.sidebar.caption("[🔗Dataset](https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset)")
 st.sidebar.caption("[🔗Build Model](https://github.com/lightangel9/Streamlit-Dog/blob/main/Model/Dog%20Classification.ipynb)")
