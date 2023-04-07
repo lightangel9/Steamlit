@@ -1,8 +1,6 @@
 import streamlit as st
 from multiapp import MultiApp
-from apps.Predictions import Predictions
-from apps.Dataset import Dataset
-from apps.RefCode import RefCode
+from apps import Predictions, Dataset, RefCode
 
 app = MultiApp()
 
