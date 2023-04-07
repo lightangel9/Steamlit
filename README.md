@@ -1,4 +1,3 @@
-# Steamlit
 Dog Species Classification
 
 st.subheader('📊Dataset')
