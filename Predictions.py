@@ -138,7 +138,7 @@ if uploaded_file:
           
 else: 
     st.subheader('☝️ Upload or drop an image file here')
-    st.warning('.jpg .png .jpeg file')
+    st.warning('.jpg .png .jpeg 📸')
 
 if uploaded_file is not None:
     # Convert the file to an opencv image.
