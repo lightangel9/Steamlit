@@ -8,5 +8,4 @@ app = MultiApp()
 app.add_app("Predictions", Predictions.app)
 app.add_app("Dataset", Dataset.app)
 app.add_app("RefCode", RefCode.app)
-# The main app
-app.run()
+
