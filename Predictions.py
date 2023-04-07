@@ -183,4 +183,4 @@ unsafe_allow_html=True
 )
 
 # เพิ่มลิงค์ URL เป็นแถบเมนู
-st.sidebar.markdown("[My github](https://github.com/lightangel9/Streamlit-Dog)")
+st.sidebar.markdown("[Github🔗](https://github.com/lightangel9/Streamlit-Dog)")
