@@ -182,9 +182,7 @@ st.markdown(
 unsafe_allow_html=True
 )
 
-# เพิ่มลิงค์ URL เป็นแถบเมนู
+
 st.sidebar.markdown("[🔗Github](https://github.com/lightangel9/Streamlit-Dog)")
-
-# เพิ่มลิงค์ URL โดยไม่มีเส้นใต้
-st.sidebar.markdown("[🔗Dataset](https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset)", unsafe_allow_html=True)
-
+st.sidebar.markdown("[🔗Dataset](https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset)")
+st.sidebar.markdown("[🔗Nuild Model](https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset)")
