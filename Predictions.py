@@ -155,7 +155,7 @@ if uploaded_file is not None:
     img_reshape = resized[np.newaxis, ...]
 
     # Generate prediction button
-    generate_pred = st.button("🔮Predict")
+    generate_pred = st.button("🔮Predict!")
 
     if generate_pred:
         # Get the prediction probabilities for the uploaded image
