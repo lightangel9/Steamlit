@@ -12,6 +12,6 @@ Annotations: Class labels, Bounding boxes
 
 🔗URL: https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset
 
-**My Colab notebook** 
+**My notebook to build model** 
 
 🔗URL: https://github.com/lightangel9/Streamlit-Dog/blob/main/Model/Dog%20Classification.ipynb
