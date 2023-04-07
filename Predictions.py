@@ -171,7 +171,7 @@ if uploaded_file is not None:
            
 st.sidebar.markdown("""
     # About 
-    This project involves processing images of all 120 dog breeds from around the world using deep learning models. 
+    The objective of this project is to employ deep learning models to accurately predict the breed of dogs based on image inputs, encompassing all 120 different breeds from around the world. 
     """)
 st.sidebar.warning("**💾 More informations:**")
 st.sidebar.caption("[🔗Github](https://github.com/lightangel9/Streamlit-Dog)")
