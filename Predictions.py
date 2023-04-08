@@ -137,7 +137,7 @@ if uploaded_file:
                 119: 'Yorkshire_terrier'}
           
 else: 
-    st.subheader('☝️ Upload or drop an image file here')
+    st.subheader('☝️ Upload or drop an image file here!')
     st.warning('.jpg .png .jpeg 📸')
 
 if uploaded_file is not None:
