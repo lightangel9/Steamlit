@@ -4,3 +4,4 @@ tensorflow
 pandas
 opencv-python-headless
 streamlit-option-menu
+scikit-learn
