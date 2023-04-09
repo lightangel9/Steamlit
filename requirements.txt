@@ -3,3 +3,4 @@ numpy
 tensorflow
 pandas
 opencv-python-headless
+streamlit_option_menu
