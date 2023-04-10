@@ -169,10 +169,7 @@ if uploaded_file is not None:
 
             
 st.sidebar.info("**🤖 Objective:**")           
-st.sidebar.markdown("""
-    The objective of this project is to employ deep learning models to accurately predict the breed of dogs based on image inputs, encompassing all 120 different breeds from around the world. 
-    """)
-st.sidebar.markdown("&nbsp;&nbsp;The objective of this project is to employ deep learning models to accurately predict the breed of dogs based on image inputs, encompassing all 120 different breeds from around the world.")
+st.sidebar.markdown("&nbsp;&nbsp;&nbsp;&nbsp;The objective of this project is to employ deep learning models to accurately predict the breed of dogs based on image inputs, encompassing all 120 different breeds from around the world.")
 st.sidebar.info("**💾 More informations:**")
 st.sidebar.caption("[🔗Github](https://github.com/lightangel9/Streamlit-Dog)")
 st.sidebar.caption("[🔗Dataset](https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset)")
