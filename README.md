@@ -1,4 +1,4 @@
-**🐶 Dog species image classification**
+**🐶 Utilizing Deep Learning Techniques for Canine Breed Analysis.**
 
 Stanford Dogs dataset contains images of 120 breeds of dogs from around the world.
 
